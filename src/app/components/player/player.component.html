@@ -1,0 +1,9 @@
+<div class="player-container">
+    <h2>{{ songs[songIndex].title }}</h2>
+    <button (click)="prev()">⏮️</button>
+    <button (click)="playPause()">
+      {{ isPlaying ? '⏸️ Pause' : '▶️ Play' }}
+    </button>
+    <button (click)="next()">⏭️</button>
+  </div>
+  
